@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+ai-service/venv/
+ai-service/__pycache__/
+
+# environment secrets — never commit these
+.env
+.env.local
+backend/.env
+ai-service/.env
+
+# build output
+frontend/dist/
+frontend/build/
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
