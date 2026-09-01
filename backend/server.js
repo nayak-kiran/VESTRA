@@ -13,6 +13,7 @@ app.use(express.json());
 
 app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/wardrobe', require('./routes/wardrobeRoutes'));
+app.use('/api/recommendations', require('./routes/recommendationRoutes'));
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', message: 'VESTRA backend is running' });
 });
